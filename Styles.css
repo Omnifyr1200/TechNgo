@@ -19,7 +19,7 @@ html, body {
 /*modify the elements of the page*/
       
 .avatar-container .Player-username {
-     font-size: 3em;
+     font-size: 2em;
      font-family: "papyrus", fantasy;
      color:rgba(64, 0, 0, 0.9);
     }
@@ -46,7 +46,7 @@ html, body {
 }
 .container {
     max-width: none !important;
-   background-image: url('https://i.imgur.com/eqfOtZU.png');
+   background-image: url('https://cutewallpaper.org/35/fantasy-wallpaper-hd-for-pc/123266216.jpg');
 }
 
 .about-container .about-markdown{
