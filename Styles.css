@@ -19,16 +19,46 @@ html, body {
 /*modify the elements of the page*/
       
 .avatar-container .Player-username {
-     font-size: 2em;
+     font-size: 3em;
+     font-family: "papyrus", fantasy;
+     color:rgba(255, 255, 255, 0.8);
+    }
+.avatar-subtext{
+     font-size: 3em;
      font-family: "papyrus", fantasy;
      color:rgba(64, 0, 0, 0.9);
     }
+
+.about-container .about-markdown{
+	
+   background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0);
+	
+}
+
 
 .ratings-container{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   opacity: 0.7;
 }
+
+
+.container {
+    max-width: none !important;
+   background-image: url('https://thumbs.gfycat.com/AbandonedGrimKagu-size_restricted.gif');
+}
+
+
+.Player-rank {
+     font-size: 3em;
+     font-family: "papyrus", fantasy;
+     color:rgba(255, 255, 255, 0.8);
+    }
+
 .PaginatedTable.game-history-table.clickable-rows{
 	background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 	background-repeat: no-repeat;
@@ -44,48 +74,11 @@ html, body {
   background-position: center;
   background-color: rgba(0,0,0,0);
 }
-.container {
-    max-width: none !important;
-   background-image: url('https://cutewallpaper.org/35/fantasy-wallpaper-hd-for-pc/123266216.jpg');
-}
-
-.about-container .about-markdown{
-  background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0,0,0,0);
-}
-
-.Card.activity-card{
+	.Card{
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
-
-.Card{
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-  opacity: 0.9;
-}
-.date {
-      color:rgba(255, 255, 255, 1) ;  
-}
-
-.Player-rank{
-     font-size: 3em;
-     font-family: "papyrus", fantasy;
-     color:rgba(255, 255, 255, 0.8);
-    }
-
-.board_size {
-        color:rgba(255, 255, 255, 1) ;
-}
-
-.game_name {
-        color:rgba(255, 255, 255, 1) ;
-}
-	
 
 /*HIDE PARTS*/
 
@@ -98,11 +91,11 @@ html, body {
  
 h2 {
 	font-family: "papyrus", fantasy;
-        color:RGBA( 64, 0, 0, 1 );
+        color:RGBA( 255, 255, 255, 0,86);
 }
 
 h3 {
-   color: rgba(0, 140, 255, 0.76);
+   color: rgba(255, 255, 255, 0.86);
    font-family: "papyrus", fantasy;
   }
 
@@ -110,6 +103,7 @@ h4{
    color: rgba(0, 140, 255, 0.76));
    font-family: "papyrus", fantasy;
 }
+
 
 .camille {
      /*font-family: "Book Antiqua", serif;
@@ -121,8 +115,8 @@ h4{
 }
 
 p {
-        font-size: 1.4em;
-	color: rgba(255, 255, 255, 1);
+        font-size: 1.3em;
+	color: rgba(255, 255, 255, 0.99);
         font-family: "papyrus", fantasy; 
 }
 
@@ -150,11 +144,18 @@ border-radius: 2.5em;
 
 .gif{
  transform: scale(0.5);
-margin-left: auto;
-margin-right: auto;
 margin-center: auto;
 }
 
+.yt-video {
+  width: 15em;
+  height: 8.44em;
+margin-left: auto;
+margin-right: auto;
+margin-center: auto;
+transform: scale(0.8);
+border-radius: 2.5em;
+}
 
 /*ANIMATION*/
 
@@ -163,11 +164,11 @@ margin-center: auto;
   width: 100%;
   height: 100%;
   /* Starting position */
-  transform: translateX(100%) translateY(-80%);
+  transform: translateX(100%) translateY(-20%);
   /* Apply animation to this element */	
   animation: scrolling 15s linear infinite;
   z-index: 9999;
-  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWI4OGUxMDhhYTlhNzU2YzkzNWJiNGU1NTYxZTQ0NTM2MzcyZGY5MyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/ZDOjDWFTH3W5MahhwW/giphy.gif);
+  background-image: url(https://64.media.tumblr.com/0c49fc60cac37776985f613a8e2cf96b/tumblr_ms5kayIt6b1s8b1s0o1_r1_500.gif);
   background-size: 30%;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,9 +178,9 @@ margin-center: auto;
 /* Move it (define the animation) */
 @keyframes scrolling {
   0%   { 
-    transform: translateX(100%) translateY(-80%); 		
+    transform: translateX(100%) translateY(-20%); 		
   }
   100% { 
-    transform: translateX(-100%) translateY(-80%); 
+    transform: translateX(-100%) translateY(-20%); 
   }
 }
