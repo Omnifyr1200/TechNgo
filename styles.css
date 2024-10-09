@@ -87,38 +87,6 @@ html, body {
 }
 
 
-/*fonts and solors*/
- 
-h2 {
-	font-family: "papyrus", fantasy;
-        color:RGBA( 255, 255, 255, 0,86);
-}
-
-h3 {
-   color: rgba(255, 255, 255, 0.86);
-   font-family: "papyrus", fantasy;
-  }
-
-h4{
-   color: rgba(0, 140, 255, 0.76));
-   font-family: "papyrus", fantasy;
-}
-
-
-.camille {
-     /*font-family: "Book Antiqua", serif;
-     color:RGBA( 0, 0, 0, 1 );*/
-	RGBA( 0, 0, 0, 1 )
-	font-family: "papyrus", fantasy;
-	position: static;
-	left:0;
-}
-
-p {
-        font-size: 1.3em;
-	color: rgba(255, 255, 255, 0.99);
-        font-family: "papyrus", fantasy; 
-}
 
 /*IMAGES AND SHAPING*/	
 
